@@ -1,0 +1,27 @@
+{
+  "name": "epf",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.4.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-html": "^4.0.2",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev": "react-scripts start"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.7.0",
+    "eslint-plugin-react": "^7.7.0",
+    "react-app-rewired": "^1.5.0"
+  }
+}
